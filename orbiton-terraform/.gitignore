@@ -1,0 +1,48 @@
+
+# Terraform files and directories
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+crash.log
+crash.*.log
+
+# AWS credentials and keys
+*.pem
+orbiton-keypair.pem
+.aws/
+aws.credentials
+
+# Environment files
+.env
+*.env
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Docker volumes and data
+data/
+grafana-data/
+prometheus-data/
+
+# Logs
+*.log
+
+# Keep these Terraform files
+!orbiton-terraform/environments/dev/terraform.tfvars
+!orbiton-terraform/environments/dev/*.tf
+!orbiton-terraform/modules/*/*.tf
+
