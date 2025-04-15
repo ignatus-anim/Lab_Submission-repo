@@ -2,4 +2,5 @@ orbiton-terraform/orbiton-keypair.pem
 orbiton-terraform/environments/dev/terraform.tfstate
 orbiton-terraform/environments/dev/.terraform
 orbiton-terraform/environments/dev/.terraform.lock.hcl
+orbiton-terraform/environments/dev/terraform.tfvars
 prometheus-grafana/.env
